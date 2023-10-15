@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body, .App {
+    min-height: 100vh;
+    margin: 0;
+    text-align: left;
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+    line-height: 1.5;
+    font-size: 1.15rem;
+    font-family: "Noto Sans", sans-serif;
+    background-color: #0c0c0c;
+    color: #fff;
+}
+
+.loading {
+    color: #fff;
+    text-align: center;
+}
+
+.error {
+    color: rgb(255, 56, 56);
+    text-align: center;
+}
